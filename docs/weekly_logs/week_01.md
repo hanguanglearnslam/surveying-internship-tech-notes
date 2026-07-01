@@ -1,34 +1,34 @@
-# week1_log
+# Week1_log
 
-## tasks
+## Tasks
 
 与单位对接，更新最新版本城市三维模型快速构建软件
 听取前辈对软件进行项目汇报
 自行将软件全流程跑下来了
 
-## data types
+## Data Types
 
 数据类型有las、DOM、DSM、OSGB
 
-## tools/platforms
+## Tools/Platforms
 
 公司的城市三维模型快速构建软件
 
-## workflow position
+## Workflow Position
 
 我是作为驻场技术支持，还没有参与到工作流中
 
-## problems found
+## Problems Found
 
 .shp文件必须与工程文件中的坐标系保持相同，否则就会出现生成的二维区块重复的结果。看重复部分是否是复制平移的结果即可知道
 体块顶高程是根据最高的点云（已经去除噪点）来定，还是根据屋檐的高度来进行平均？
 目前使用单台电脑处理时间较长，要投入真正的生产中，需要进行集群化管理，各个机器分配任务，统一调度，但是各个机器见如何进行进度共享，是个问题。
 
-## problem automation
+## Problem Automation
 
 目前不知道有什么可以用自动脚本解决的
 
-## research connection
+## Research Connection
 
 项目汇报时，注意到有个前辈说要直接用Lidar数据直接建模，相比于我们先使用矢量数据识别出城市房屋，再根据DEM生成的OBSG或者las点云进行体块构建更加自动化，或者更加准确。
 但是我还没有查阅相关资料，研究是否行业存在这个痛点。可以当作后面的一个创新点。
